@@ -11,7 +11,7 @@ public class UpperDeckApplication {
 
 	@Bean
 	public Function<String, String> uppercase() {
-		return s -> s.toUpperCase().concat("... and Steve is the best");
+		return s -> s.toUpperCase().concat("... and also, GO BLUES!");
 	}
 
 	public static void main(String[] args) {
